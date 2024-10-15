@@ -1,0 +1,41 @@
+@import url(href='https://fonts.googleapis.com/css?family=Sofia');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #76b852;
+    font-family: 'Roboto';
+}
+.container{
+    width: 350px;
+    height: 300px;
+    background-color: #fff;
+    margin: 200px auto;
+    padding: 40px 50px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    
+}
+input{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 0;
+    background-color:#f2f2f2 ;
+    outline: 0;
+}
+input[type="submit"]{
+    background-color: #4CAF50;
+}
+.messeage{
+    font-size: 12px;
+    margin: 15px;
+    color:#b3b3b3;
+}
+.messeage a{
+    text-decoration: none;
+    color:#4CAF50;
+}
